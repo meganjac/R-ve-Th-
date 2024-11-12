@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-<!-- Mis LINKS -->
+<!-- MyLinks -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="command:workbench.trust.managehttps://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="css/stylesheet.css">
@@ -16,9 +16,201 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+<!--LINK TO BOOSTRAP (CSS)-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
 </head>
 
 <body>
-    <h1 class="playwrite-gb-s">Rêve & Thé</h1>
-    <p class="work-sans">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo pariatur laboriosam perspiciatis? Quaerat voluptatum totam officia repellat, quidem sint atque non nulla, distinctio sapiente, consectetur exercitationem. Voluptatem, saepe sit?</p>
+    <div class="pagina">
+
+        <div class="header-container" style="background-color: #e7dfdf;"> <!--Imagen del logo-->
+            <div class="nav-img-container">
+                <img src="img/logo.png" alt="Error" width="50px">
+            </div>
+        
+            <div class="nav-container"> <!--Barra de navegación-->
+                <nav class="nav-bar">
+                    <ul>
+                        <li class="work-sans"><a href="#">Tés</a></li>
+                        <li class="work-sans"><a href="#">Regalos</a></li>
+                        <li class="work-sans"><a href="#">Best-Sellers</a></li>
+                        <li class="work-sans"><a href="#">Novedades</a></li>
+                        <li class="work-sans"><a href="#">Promos</a></li>
+                        <li class="work-sans"><a href="#">Nuestras marcas</a></li>
+                        <li class="work-sans"><a href="#">Blog</a></li>
+                        <li class="work-sans"><a href="#">Venta mayorista</a></li>
+                        <li class="work-sans"><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="busquedas-container" style="background-color: #e7dfdf"> <!--Barra de búsqueda con BT y Plugins-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+        
+                        <div class="mb-3">
+                            <label for="autofill" class="form-label">¿Qué quieres buscar?</label>
+                            <input type="text" class="form-control" id="autofill">
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="iconos"> <!--Íconos al lado de la barra de búsquedas-->
+                <nav>
+                    <ul>
+                        <li><img src="img/logo.png" alt="Error" width="50px"></li>
+                        <li><img src="img/logo.png" alt="Error" width="50px"></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="main-container" style="background-color: #e7dfdf;"> <!--DIV del main-->
+            <main class="work-sans"> <!--MAIN-->
+
+                <div class="section1" style="background-color: #ABC0E2;"> <!--Banner con mensaje de bienvenida-->
+                    <section>
+                        <div class="h1-container">
+                            <h1 class="playwrite-gb-s">Bienvenido a Rêve & Thé</h1>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="section2" style="background-color: #e7dfdf;"> <!--DIV del Carousel de fotos de infusiones-->
+                    <section>
+                        <article>
+                            <div><p>Descubrí nuestras infusiones</p></div> 
+                            <!--para que sea interactiva, podemos poner un botón que diga "ver todas" y te redirija 
+                            a la página de productos de té-->
+
+                            <div>
+                                <img src="img/tes.jpg" alt="" width="100px">
+                                <img src="img/tes.jpg" alt="" width="100px">
+                                <img src="img/tes.jpg" alt="" width="100px">
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+                <div class="section3" style="background-color: #e7dfdf;"> <!--DIV de la sección de reservas-->
+                    <section>
+                        <article>
+                            <p>Escoge tu mesa</p>
+                            <div>
+                                <div>
+                                    <img src="img/tes.jpg" alt="" width="100px">
+                                    <img src="img/tes.jpg" alt="" width="100px">
+                                    <img src="img/tes.jpg" alt="" width="100px">
+                                </div>
+                                <div>
+                                    <button>¡Quiero reservar!</button>
+                                    <button>¡Quiero reservar!</button>
+                                    <button>¡Quiero reservar!</button>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+                <div class="section4" style="background-color: #e7dfdf;"> <!--DIV de la seccion newsletter-->
+                    <section>
+                        <div>
+                            <article>
+                                <div>
+                                    <h2>Follow the latest trends</h2>
+                                    <p>With our daily newsletter</p>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+
+            <div class ="footer-container" style="background-color: #e7dfdf">
+                <!--FOOTER-->
+                <footer class="work-sans"> 
+
+                    <div class="navbar1-container" style="background-color: #e7dfdf;">
+                        <img src="" alt="">
+                        <nav>
+                            <ul>
+                                <li><a href="#"><img src="img/tes.jpg" alt="Error" width="100px"></a></li>
+                                <li><a href="#"><img src="img/tes.jpg" alt="Error" width="100px"></a></li>
+                                <li><a href="#"><img src="img/tes.jpg" alt="Error" width="100px"></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="navbar2-container" style="background-color: #e7dfdf;">
+                        <div>
+                            <p>Sobre Nosotras</p>
+                        </div>
+                            
+                        <nav>
+                            <ul>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="navbar3-container" style="background-color: #e7dfdf;">
+                        <div>
+                            <p>Productos</p>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="navbar4-container" style="background-color: #e7dfdf;">
+                        <div>
+                            <p>INFO</p>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li>Nombre1</li>
+                                <li>Nombre2</li>
+                                <li>Nombre3</li>
+                                <li>Nombre4</li>
+                                <li>Nombre5</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </footer>
+
+        </div>
+        
+    <!--LINK TO BOOTSTRAP (JS)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!--SCRIPT JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- script: autofill -->
+    <script src="vendors/autocomplete-bootstrap-autofill/autofill.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $("#autofill").autofill({
+                values: ["mugs / tazas", "teteras", "té", "sets", "infusores", "menú"],
+                minCharacters: 2,
+
+
+            })
+        });
+    </script>
+
+
+</body>
 </html>

@@ -1,0 +1,58 @@
+.playwrite-gb-s{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work-sans{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+body{
+    background-color: #F4F4EA;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: row;
+}
+.nav-img-container{
+    display: inline-block;
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
+
+.busquedas-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconos nav ul{
+    display: flex;
+    justify-content: row;
+}
+
+.section1{
+    background: url(../img/tes.jpg) no-repeat fixed;
+    background-size: cover;
+    min-height: 40vh;
+
+}
+.h1-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}

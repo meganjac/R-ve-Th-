@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Principal</title>
 
 <!-- MyLinks -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,177 +20,223 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
+
 </head>
 
 <body>
     <div class="pagina">
 
-        <div class="header-container" style="background-color: #e7dfdf;"> <!--Imagen del logo-->
+        <div class="header-container"> <!--Imagen del logo-->
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Rêve & Thé</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Tés</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Nuestros Productos</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Reservar</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Newsletter</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Menú</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
             <div class="nav-img-container">
-                <img src="img/logo.png" alt="Error" width="50px">
+                <img src="img/logo.png" alt="Error" width="84px">
             </div>
-        
-            <div class="nav-container"> <!--Barra de navegación-->
-                <nav class="nav-bar">
-                    <ul>
-                        <li class="work-sans"><a href="#">Tés</a></li>
-                        <li class="work-sans"><a href="#">Regalos</a></li>
-                        <li class="work-sans"><a href="#">Best-Sellers</a></li>
-                        <li class="work-sans"><a href="#">Novedades</a></li>
-                        <li class="work-sans"><a href="#">Promos</a></li>
-                        <li class="work-sans"><a href="#">Nuestras marcas</a></li>
-                        <li class="work-sans"><a href="#">Blog</a></li>
-                        <li class="work-sans"><a href="#">Venta mayorista</a></li>
-                        <li class="work-sans"><a href="#">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
+            
         </div>
 
-        <div class="busquedas-container" style="background-color: #e7dfdf"> <!--Barra de búsqueda con BT y Plugins-->
+        <div class="busquedas-container"> <!--Barra de búsqueda con BT y Plugins-->
             <div class="container">
                 <div class="row">
                     <div class="col-6">
-        
                         <div class="mb-3">
                             <label for="autofill" class="form-label">¿Qué quieres buscar?</label>
                             <input type="text" class="form-control" id="autofill">
                         </div>
-    
                     </div>
                 </div>
             </div>
+
             <div class="iconos"> <!--Íconos al lado de la barra de búsquedas-->
-                <nav>
+                <nav class="nav_icons">
                     <ul>
-                        <li><img src="img/logo.png" alt="Error" width="50px"></li>
-                        <li><img src="img/logo.png" alt="Error" width="50px"></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="70" height="40" fill="currentColor" class="person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                            </svg></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" class="bag-fill" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
+                            </svg></li>
                     </ul>
                 </nav>
             </div>
         </div>
 
-        <div class="main-container" style="background-color: #e7dfdf;"> <!--DIV del main-->
+        <div class="main-container"> <!--DIV del main-->
             <main class="work-sans"> <!--MAIN-->
 
-                <div class="section1" style="background-color: #ABC0E2;"> <!--Banner con mensaje de bienvenida-->
+                <div class="section1"> <!--Banner con mensaje de bienvenida-->
                     <section>
                         <div class="h1-container">
-                            <h1 class="playwrite-gb-s">Bienvenido a Rêve & Thé</h1>
+                            <h1 class="playwrite-gb-s" style="color: rgb(251, 251, 251); text-shadow: 2px 2px 2px rgb(0, 0, 0); font-size: 5em;">
+                                Bienvenido a Rêve & Thé
+                            </h1>
                         </div>
                     </section>
                 </div>
 
-                <div class="section2" style="background-color: #e7dfdf;"> <!--DIV del Carousel de fotos de infusiones-->
+                <div class="section2"> <!--DIV Sección 2 de productos-->
+                    <div><h2 style="text-align: center; font-size: 3em;">Descubrí nuestras infusiones</h2></div>
+                    <section class="cards">
+                        <div class="infusion1" class="work-sans" class="col-sm-3">
+                            <img src="img/temanzanilla.jpg" width="100%" alt="" style="border-radius: 15px;">
+                            <p class="title">Té de manzanilla</p>
+                            <p>texto explicando este tipo de te...</p>
+                            <button><a href="#">Ver más</a></button>
+                        </div>
+    
+                        <div class="infusion2" class="work-sans" class="col-sm-3">
+                            <img src="img/tenegro.jpg" width="100%" alt="" style="border-radius: 15px;">
+                            <p class="title">Té negro</p>
+                            <p>texto explicando este tipo de te...</p>
+                            <button><a href="#">Ver más</a></button>
+                        </div>
+    
+                        <div class="infusion3" class="work-sans" class="col-xl-4 col-sm-3">
+                            <img src="img/teverde.jpg" width="100%" alt="" style="border-radius: 15px;">
+                            <p class="title">Té verde</p>
+                            <p>texto explicando este tipo de te...</p>
+                            <button><a href="#">Ver más</a></button>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="section3"> <!--DIV de la sección 3 de reservas-->
                     <section>
                         <article>
-                            <div><p>Descubrí nuestras infusiones</p></div> 
-                            <!--para que sea interactiva, podemos poner un botón que diga "ver todas" y te redirija 
-                            a la página de productos de té-->
-
-                            <div>
-                                <img src="img/tes.jpg" alt="" width="100px">
-                                <img src="img/tes.jpg" alt="" width="100px">
-                                <img src="img/tes.jpg" alt="" width="100px">
+                            <h2 style="text-align: center; font-size: 3em;">Escogé tu mesa</h2>
+                            
+                            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/place4-2.jpg" class="d-block mx-auto" width="300px" alt="Error">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/place3.jpg" class="d-block mx-auto" width="300px" alt="Error">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                </button>
                             </div>
+
+                            <div class="p-container">
+                                <p>¡Quiero reservar!</p>
+                            </div>   
                         </article>
                     </section>
                 </div>
 
-                <div class="section3" style="background-color: #e7dfdf;"> <!--DIV de la sección de reservas-->
+                <div class="section4"> <!--DIV de la sección 4 newsletter-->
                     <section>
-                        <article>
-                            <p>Escoge tu mesa</p>
-                            <div>
-                                <div>
-                                    <img src="img/tes.jpg" alt="" width="100px">
-                                    <img src="img/tes.jpg" alt="" width="100px">
-                                    <img src="img/tes.jpg" alt="" width="100px">
+                            <article class="container-newsletter col-12 my-4">
+                                <div class="container-text-novedades">
+                                    <p>NO<br>VE <br>DA<br>DES</p>
                                 </div>
-                                <div>
-                                    <button>¡Quiero reservar!</button>
-                                    <button>¡Quiero reservar!</button>
-                                    <button>¡Quiero reservar!</button>
-                                </div>
-                            </div>
-                        </article>
-                    </section>
-                </div>
-
-                <div class="section4" style="background-color: #e7dfdf;"> <!--DIV de la seccion newsletter-->
-                    <section>
-                        <div>
-                            <article>
-                                <div>
-                                    <h2>Follow the latest trends</h2>
-                                    <p>With our daily newsletter</p>
+                                <div class="suscription">
+                                    <form class="row g-3">
+                                            <div class="container-suscription-text">
+                                                <p class="texto-suscripcion">No te pierdas nuestros eventos</p>
+                                            </div>
+                                            <div class="btn-campo-suscription-container">
+                                                <div class="campo-suscripcion col-auto">
+                                                    <input type="email" class="form-control" id="inputPassword2" placeholder="Suscríbete al Newsletter">
+                                                </div>
+                                                <div class="boton-enviar col-auto">
+                                                    <button type="submit" class="btn btn-primary mb-3">ENVIAR</button>
+                                                </div>
+                                            </div>
+                                    </form>
                                 </div>
                             </article>
-                        </div>
                     </section>
                 </div>
+
+                <div class="section5"> <!--DIV de la sección 5 RESEÑAS-->
+                    <section>
+                        <article>
+                            <h2 style="text-align: center; font-size: 3em;">¿Qué opinan nuestros clientes?</h2>
+
+                            <div id="carouselExample" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/cookies2-2.png" class="d-block mx-auto" alt="Error" width="300px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/cookies2-2.png" class="d-block mx-auto" alt="Error" width="300px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/cookies2-2.png" class="d-block mx-auto" alt="Error" width="300px">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                </button>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
             </main>
         </div>
 
-            <div class ="footer-container" style="background-color: #e7dfdf">
+            <div class ="footer-container">
                 <!--FOOTER-->
                 <footer class="work-sans"> 
-
-                    <div class="navbar1-container" style="background-color: #e7dfdf;">
-                        <img src="" alt="">
-                        <nav>
-                            <ul>
-                                <li><a href="#"><img src="img/tes.jpg" alt="Error" width="100px"></a></li>
-                                <li><a href="#"><img src="img/tes.jpg" alt="Error" width="100px"></a></li>
-                                <li><a href="#"><img src="img/tes.jpg" alt="Error" width="100px"></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-
-                    <div class="navbar2-container" style="background-color: #e7dfdf;">
-                        <div>
-                            <p>Sobre Nosotras</p>
+                    <div class="navbar-footer-container" class="work-sans">
+                        <div class="navbar2-container">
+                            <div>
+                                <p style="font-size: 1.5rem;">Sobre Nosotras</p>
+                            </div>
+                            <nav>
+                                <ul>
+                                    <li>Nombre1</li>
+                                    <li>Nombre2</li>
+                                    <li>Nombre3</li>
+                                    <li>Nombre4</li>
+                                    <li>Nombre5</li>
+                                </ul>
+                            </nav>
                         </div>
-                            
-                        <nav>
-                            <ul>
-                                <li><a href=""></a></li>
-                                <li><a href=""></a></li>
-                                <li><a href=""></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-
-                    <div class="navbar3-container" style="background-color: #e7dfdf;">
-                        <div>
-                            <p>Productos</p>
+                        <div class="navbar1-container">
+                            <nav>
+                                <ul>
+                                    <li><a href="#"><img src="img/tes.jpg" alt="Error" width="100px"></a></li>
+                                    <li><a href="#"><img src="img/tes.jpg" alt="Error" width="100px"></a></li>
+                                </ul>
+                            </nav>
                         </div>
-                        <nav>
-                            <ul>
-                                <li><a href=""></a></li>
-                                <li><a href=""></a></li>
-                            </ul>
-                        </nav>
                     </div>
-
-                    <div class="navbar4-container" style="background-color: #e7dfdf;">
-                        <div>
-                            <p>INFO</p>
-                        </div>
-                        <nav>
-                            <ul>
-                                <li>Nombre1</li>
-                                <li>Nombre2</li>
-                                <li>Nombre3</li>
-                                <li>Nombre4</li>
-                                <li>Nombre5</li>
-                            </ul>
-                        </nav>
+                    <div class="container-copyright">
+                        <p>Rêve & Thé © 2024. All rights reserved</p>
                     </div>
                 </footer>
-
-        </div>
-        
+            </div>
+    </div>   
     <!--LINK TO BOOTSTRAP (JS)-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
@@ -205,11 +251,10 @@
             $("#autofill").autofill({
                 values: ["mugs / tazas", "teteras", "té", "sets", "infusores", "menú"],
                 minCharacters: 2,
-
-
             })
         });
     </script>
+
 
 
 </body>

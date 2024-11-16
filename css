@@ -11,48 +11,331 @@
     font-weight: 200;
     font-style: normal;
 }
-body{
-    background-color: #F4F4EA;
-}
 
+/* --- Comienza el header --- */
 .header-container{
     display: flex;
     justify-content: space-between;
 }
-.nav-bar ul{
-    display: flex;
-    justify-content: row;
+h2{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .nav-img-container{
-    display: inline-block;
+    display: inline;
+}
+.bg-body-tertiary{
+    background-color: rgb(255, 255, 255)
+}
+.navbar-brand{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 2.5rem;
 }
 ul li{
     list-style: none;
     margin: 10px;
 }
-ul li a{
-    text-decoration: none;
+ul li:hover{
+    text-decoration: underline;
 }
-
 .busquedas-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1em;
 }
-.iconos nav ul{
+.mb-3 label{
+    font-family: "work sans", cursive;
+    font-size: 1.2rem;
+}
+.nav_icons ul{
     display: flex;
-    justify-content: row;
+    flex-direction: row nowrap;
+}
+.nav_icons ul li{
+    margin-right: 5px;
+}
+.person, .bag-fill {
+    padding: 2px; 
+}
+/* --- Finaliza el header --- */
+
+
+/* --- Comienza MAIN --- */
+.main-container{
+    margin-top: 1em;
 }
 
+/* --- Comienza el section1 BANNER --- */
 .section1{
-    background: url(../img/tes.jpg) no-repeat fixed;
+    background: url(../img/cookies2-2.png) no-repeat center fixed;
     background-size: cover;
-    min-height: 40vh;
+    min-height: 60vh;
+    opacity: 1;
 
-}
+}   
 .h1-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
+    min-height: 60vh;
+}
+/* --- Finaliza el section1 BANNER--- */
+
+
+
+/* ---------------- Comienza el section2 PRODUCTOS-------------------- */
+.section2{
+    padding: 20px;
+    background-color: #f4f4ea;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.infusion1:hover, .infusion2:hover, .infusion3:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out 0s;
+}
+.infusion1, .infusion2, .infusion3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    max-width: 240px;
+    margin: 2%;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+    border-radius: 5px;
+
+}
+.title{
+    padding: 5px;
+    font-size:medium;
+}
+
+.section2 button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    border-color: black;
+    transition: 0.3;
+}
+.section2 button:hover{
+    background-color: rosybrown;
+    color: white;
+    
+}
+
+.section2 a{
+    text-decoration: none;
+    color: black;
+    
+}
+/* ----------------Termina el section2----------------- */
+
+
+/* --- Comienza el section3 RESERVAS--- */
+.section3{
+    background-color: #f9e4eb;
+}
+.section3 h2{
+    margin-top: 20px;
+    margin-bottom: 1em;
+}
+.p-container{
+    display: flex;
+    justify-content: center;
+}
+/* --- Finaliza la section3 --- */
+
+/* --- Comienza el section4 NEWSLETTER --- */
+.container-newsletter{
+    display: flex;
+    flex-direction: row nowrap;
+}
+.form-control {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: #aaa; 
+    margin: 0;
+}
+.container-text-novedades{
+    width: 30%;
+    z-index: 3;
+    padding: 90px;
+}
+.container-text-novedades p{
+    font-size: 10.5em;
+    line-height: 1em;
+    font-weight: bold;
+    margin-left: -70px;
+    color: #508030;
+}
+.suscription{
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-suscription-text{
+    padding: 3px;
+}
+.texto-suscripcion{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+}
+.btn-campo-suscription-container{
+    display: flex;
+    justify-content: center;
+}
+.campo-suscripcion, .btn{
+    margin-left: 20px;
+}
+
+.btn.btn-primary {
+    width: 7em;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    color: #4a4a4a; /* Color del texto "ENVIAR" */
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+.boton-enviar .btn:hover {
+    background-color: rgb(144, 192, 134); 
+}
+
+/* --- Finaliza la section4 --- */
+
+
+/* --- Comienza la secion5 RESEÑAS--- */
+.section5{
+    background-color: #f7f7ef;
+}
+/* --- Finaliza la secion5 --- */
+
+
+/* --- Comienza footer --- */
+.footer-container{
+    background-color: #faf5f1;
+}
+.navbar-footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar2-container{
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar2-container a{
+    text-decoration: none;
+    color: black;
+}
+.container-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* --- Finaliza footer --- */
+
+
+/* --- Carousel --- */
+.carousel{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.carousel-inner img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    transition: 0.2s;
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+}
+/* ---Final Carousel --- */
+
+
+/* --- Media Queries --- */
+@media screen and (max-width: 768px) {
+    .container-text-novedades{
+        display: none
+    }
+    .suscription{
+        width: 90%;
+        padding: 10%;
+    }
+    .texto-suscripcion{
+        font-size: 2em;
+        line-height: 1em;
+        color: #DA7297;
+
+    }
+    .btn-campo-suscription-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .campo-suscripcion, .bnt{
+        font-size: 0.9em; /* Reduce el tamaño de fuente del botón */
+        margin: 0;
+    } 
+    .container-newsletter{
+        justify-content: center;
+    }
+
+    .p-container p{
+        font-size: 1.5rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        padding: 10px;
+        margin: 8px 0px 8px 0px;
+        border-color: black;
+        border-width: 1px;
+        transition: 0.5s
+    }
+    .p-container p:active{
+        border-radius: 40%;
+        background-color: rosybrown;
+        color: white;
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .carousel-inner img{
+        width: 400px;
+        box-shadow: 4px 4px 8px 0 #4a4a4a;
+    }
+    .p-container p{
+        font-size: 1.5rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        padding: 20px;
+        margin: 1em 0px 1em 0px;
+        border-color: black;
+        border-width: 1px;
+        transition: 0.5s
+    }
+    .p-container p:hover{
+        border-radius: 40%;
+        background-color: rosybrown;
+        color: white;
+        transform: scale(1.1);
+        
+    }
 }

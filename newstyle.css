@@ -1,0 +1,184 @@
+.playwrite-gb-s{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work-sans{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-img-container{
+    display: inline;
+}
+.bg-body-tertiary{
+    background-color: rgb(255, 255, 255)
+}
+
+.navbar-brand{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 2.5rem;
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+
+.busquedas-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.mb-3 label{
+    font-family: "work sans", cursive;
+    font-size: 1.2rem;
+}
+
+.nav_icons ul{
+    display: flex;
+    flex-direction: row nowrap;
+}
+.nav_icons ul li{
+    margin-right: 5px;
+}
+.person, .bag-fill {
+    padding: 2px; 
+}
+
+.newsection1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../img/tazas.jpeg) no-repeat fixed;
+    background-size: cover;
+    min-height: 80vh;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+}
+
+.h1-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}
+
+.h2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -85px;
+}
+
+.btn1 {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    background-color: rosybrown;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn1:hover{
+    color: rgb(0, 0, 0);
+    background-color: rosybrown;
+}
+
+.newsection2{
+    background-color: rosybrown;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    padding: 20px;
+
+} 
+
+.newsection2 h1 {
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.event-info, .event-info-2, .event-info-3{
+    font-weight: normal;
+    margin: 10px;
+}
+
+.btn2{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn2:hover{
+    background-color: rgb(144, 192, 134);
+}
+
+.card-1, .card-2, .card-3 {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto; 
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.card-title{
+    margin-top: 10px;
+}
+
+.card-text{
+    font-weight: normal;
+}
+
+.card-deck{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 5px;
+}
+
+
+@media (min-width: 1024px) {
+    .card-1, .card-2, .card-3 {
+        width: 80%;
+        max-width: 300px; 
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto; 
+    }
+
+    .card-body {
+        padding: 10px; 
+    }
+
+    .card-title {
+        font-size: 1.2rem; 
+    }
+
+    .card-text {
+        font-size: 0.9rem; 
+    }
+}

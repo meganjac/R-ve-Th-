@@ -75,7 +75,7 @@ ul li:hover{
     left: 45%;
     transform: translate(-45%, -45%);
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: "Work Sans", sans-serif;
     opacity: 0;
     transition: opacity 0.3s;
@@ -151,39 +151,70 @@ label{
 .form-container{
     margin-top: 2rem;
 }
+#nombre,
+#email,
+#telefono,
+#personas,
+#fecha,
+#hora{
+    border-color: #abc0e2;
+    border-width: 2px;
+}
 /* --- Finaliza el section2 --- */
 
-
-/* --- Comienza el footer --- */
+/* --- Comienza footer --- */
 .footer-container{
     background-color: #faf5f1;
+    margin-top: 3rem;
 }
 .navbar-footer-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     justify-content: space-between;
-    align-items: center;
 }
 .navbar2-container{
-    display: flex;
-    padding-left: 10px;
-    justify-content: space-around;
-    align-items: center;
+    padding-left: 1rem;
 }
-.navbar2-container a{
-    text-decoration: none;
-    color: black;
+#sobrenosotras{
+    font-size: 2rem;
+    color: rgb(38, 38, 38);
+}
+.descripcion-container{
+    display: flex;
+    justify-content: start;
+    width: 400px;
+}
+#descripcion{
+    font-size: 1rem;
+    color: rgb(38, 38, 38);
 }
 .container-copyright{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
+}
+#copyright{
+    font-size: 0.8rem;
 }
 ul li{
     list-style: none;
 }
-/* --- Finaliza el footer --- */
+.navbar2-container ul{
+    padding: 0;
+}
+.redes-sociales-container{
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: flex-start;
+}
+.redes-sociales{
+    color: rgb(156, 156, 156);
+    width: 30px;
+    height: 30px;
+}
+/* --- Finaliza footer --- */
 
 /*--- MEDIAQUERIES --- */
 @media screen and (min-width: 768px) {
@@ -197,5 +228,10 @@ ul li{
 @media screen and (max-width: 626px) {
     .dias-semana{
         font-size: 0.8rem;
+    }
+    .img-container1 p, 
+    .img-container2 p, 
+    .img-container3 p{
+        font-size: 1.5rem;
     }
 }

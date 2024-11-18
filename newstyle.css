@@ -108,7 +108,7 @@ ul li:hover{
 
 .newsection2{
     background-color: rosybrown;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); /* color del título */ 
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
@@ -116,23 +116,13 @@ ul li:hover{
 } 
 
 .newsection2 h1 {
-    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); /* shadow del título */
 }
 
 .event-info, .event-info-2, .event-info-3{
     font-weight: normal;
     margin: 10px;
 }
-
-
-/* .btn .btn-primary {
-    width: 7em;
-    border-radius: 20px;
-    background-color: #4CAF50; /* Verde */
-    /* color: white;
-    font-weight: bold;
-    letter-spacing: 1.4px;
-}  */
 
 .btn.custom-btn {
     background-color: #687144; /* Verde */

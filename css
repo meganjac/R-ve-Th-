@@ -17,9 +17,6 @@
     display: flex;
     justify-content: space-between;
 }
-h2{
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
 .nav-img-container{
     display: inline;
 }
@@ -67,7 +64,7 @@ ul li:hover{
 
 /* --- Comienza el section1 BANNER --- */
 .section1{
-    background: url(../img/cookies2-2.png) no-repeat center fixed;
+    background: url(../img/banner.jpg) no-repeat center fixed;
     background-size: cover;
     min-height: 60vh;
     opacity: 1;
@@ -83,34 +80,36 @@ ul li:hover{
 
 
 
-/* ---------------- Comienza el section2 PRODUCTOS-------------------- */
+/* ---------------- Comienza el section2 INFUSIONES-------------------- */
 .section2{
-    padding: 20px;
-    background-color: #f4f4ea;
-
+    padding: 100px 30px 20px;
+    background-color: #ffffff;
 }
-.cards{
+.section2 div{
+    margin: 0 0 60px;
+}
+.cards{ /*aplica para las cards de reseñas*/
     display: flex;
+    flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
+    margin-top: 70px;
+    padding: 20px;
+   
 }
-.infusion1:hover, .infusion2:hover, .infusion3:hover{
+.infusion1:hover, .infusion2:hover, .infusion3:hover, .infusion4:hover{
     transform: scale(1.1);
     transition: all 0.5s ease-in-out 0s;
+    
 }
-.infusion1, .infusion2, .infusion3{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: white;
-    max-width: 240px;
-    margin: 2%;
+.infusion1, .infusion2, .infusion3, .infusion4{
     padding: 10px;
     text-align: center;
     font-size: small;
-    border-radius: 5px;
-
 }
-.title{
+.text-infusion{
     padding: 5px;
+    margin-top: 15px;
     font-size:medium;
 }
 
@@ -134,25 +133,83 @@ ul li:hover{
 /* ----------------Termina el section2----------------- */
 
 
-/* --- Comienza el section3 RESERVAS--- */
-.section3{
-    background-color: #f9e4eb;
+/* --- Comienza el section3 PRODUCTOS (pensado en Mobile First)--- */
+.container-productos-ver-mas{
+    padding: 40px;
 }
-.section3 h2{
-    margin-top: 20px;
-    margin-bottom: 1em;
+.text-btn-sacos-te-container, .text-btn-set-te-container{
+    box-sizing: border-box;
+    border: 15px solid transparent; /*para que el contenido se ajuste en relación al borde, y el espacio se reduzca*/
+    padding: 30px;
 }
-.p-container{
+.primer-texto{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.segundo-texto{
+    text-align:center;
+    font-size: 1em;
+    padding: 10px;
+}
+.btn-ver-mas-container{
     display: flex;
     justify-content: center;
 }
-/* --- Finaliza la section3 --- */
+.btn-sacos-te, .btn-set-te{
+    width: 7em;
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+.btn-sacos-te:hover, .btn-set-te:hover{
+    background-color: #ffffff;
+}
 
-/* --- Comienza el section4 NEWSLETTER --- */
+.btn-sacos-te a, .btn-set-te a{
+    text-decoration: none;
+    color: #a0866b;
+    padding: 5px;
+}
+
+/* --- Comienza el section4 RESERVAS--- */
+
+.reservas{
+    background: url(/img/pink-wallpaper.jpg) no-repeat center fixed;
+    background-size: cover;
+
+} 
+.text-reservas{
+    text-align: center;
+    margin-bottom: 20px;
+}       
+.link-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#link-reservas{
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    letter-spacing: 1.4px;
+    color: #DA7297;
+}
+#link-reservas:hover{
+    color: #8E3E63;
+}
+/* --- Finaliza la section4 --- */
+
+
+
+/* --- Comienza el section5 NEWSLETTER --- */
 .container-newsletter{
     display: flex;
     flex-direction: row nowrap;
 }
+
 .form-control {
     width: 100%;
     border: 1px solid #ccc;
@@ -188,35 +245,55 @@ ul li:hover{
     text-align: center;
     font-weight: bold;
 }
+
 .btn-campo-suscription-container{
     display: flex;
     justify-content: center;
 }
-.campo-suscripcion, .btn{
+.campo-suscripcion, .boton-enviar{
     margin-left: 20px;
 }
-
-.btn.btn-primary {
+.btn-primary {
     width: 7em;
     border-radius: 20px;
     background-color: transparent;
     border: none;
-    color: #4a4a4a; /* Color del texto "ENVIAR" */
+    color: #D76C82; /* Color del texto "ENVIAR" */
     font-weight: bold;
     letter-spacing: 1.4px;
 }
-.boton-enviar .btn:hover {
-    background-color: rgb(144, 192, 134); 
+.btn-primary:hover {
+    background-color: #FFD0D0; 
+    color: #ffffff;
 }
 
-/* --- Finaliza la section4 --- */
+/* --- Finaliza la section5 --- */
 
 
-/* --- Comienza la secion5 RESEÑAS--- */
-.section5{
-    background-color: #f7f7ef;
+/* --- Comienza la secion6  RESEÑAS--- */
+.review{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    padding: 20px;
+   
 }
-/* --- Finaliza la secion5 --- */
+#review1, #review2, #review3, #review4{
+    padding: 30px;
+}
+blockquote{
+    padding: 10px;
+}
+.user img, .user p{
+    display: inline-block;
+    margin-left: 10px;
+}
+blockquote p{
+    padding: 10px;
+}
+/* --- Finaliza la secion6 --- */
 
 
 /* --- Comienza footer --- */
@@ -248,33 +325,40 @@ ul li:hover{
 /* --- Finaliza footer --- */
 
 
-/* --- Carousel --- */
-.carousel{
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-.carousel-inner img{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 10%;
-}
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10%;
-    transition: 0.2s;
-}
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover{
-    background-color: rgba(0, 0, 0, 0.8);
-    transform: scale(1.1);
-}
-/* ---Final Carousel --- */
 
 
-/* --- Media Queries --- */
+
+/* --- Media Queries - Responsive design--- */
+
+/*Section 2 INFUSIONES a mobile*/
+@media screen and (max-width: 768px){
+    .infusion1 img, .infusion2 img, .infusion3 img, .infusion4 img{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 768px){
+    .infusion1 img, .infusion2 img, .infusion3 img, .infusion4 img{
+        width: 60%;
+    }
+}
+    
+/*Section 4 Reservas para medium/large screens*/
+@media screen and (min-width: 768px){
+    .text-reservas{
+        padding-left: 100px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    #carousel-reserva {
+        width: 40%; /* Ocupar el 40% restante */
+        margin-left: 80px;
+      }
+}
+ 
+    /*Section 5 NEWSLETTER para mobile*/
 @media screen and (max-width: 768px) {
     .container-text-novedades{
-        display: none
+        display: none;
     }
     .suscription{
         width: 90%;
@@ -283,59 +367,25 @@ ul li:hover{
     .texto-suscripcion{
         font-size: 2em;
         line-height: 1em;
-        color: #DA7297;
+        color: #D76C82;
 
     }
     .btn-campo-suscription-container{
+        margin-top: 35px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .campo-suscripcion, .bnt{
         font-size: 0.9em; /* Reduce el tamaño de fuente del botón */
         margin: 0;
     } 
-    .container-newsletter{
-        justify-content: center;
+    .btn-primary:hover {
+        background-color: #FFD0D0; 
+        color: #ffffff;
     }
-
-    .p-container p{
-        font-size: 1.5rem;
-        background-color: rgb(255, 255, 255);
-        border-radius: 50%;
-        padding: 10px;
-        margin: 8px 0px 8px 0px;
-        border-color: black;
-        border-width: 1px;
-        transition: 0.5s
-    }
-    .p-container p:active{
-        border-radius: 40%;
-        background-color: rosybrown;
-        color: white;
-        transform: scale(1.1);
-    }
+    
 }
 
-@media screen and (min-width: 768px){
-    .carousel-inner img{
-        width: 400px;
-        box-shadow: 4px 4px 8px 0 #4a4a4a;
-    }
-    .p-container p{
-        font-size: 1.5rem;
-        background-color: rgb(255, 255, 255);
-        border-radius: 50%;
-        padding: 20px;
-        margin: 1em 0px 1em 0px;
-        border-color: black;
-        border-width: 1px;
-        transition: 0.5s
-    }
-    .p-container p:hover{
-        border-radius: 40%;
-        background-color: rosybrown;
-        color: white;
-        transform: scale(1.1);
-        
-    }
-}
+
+
+

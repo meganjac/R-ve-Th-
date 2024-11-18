@@ -171,7 +171,7 @@ ul li:hover{
     font-size: 10.5em;
     line-height: 1em;
     font-weight: bold;
-    margin-left: -70px;
+    margin-left: -70px; /* suggest change to -50px */
     color: #508030;
 }
 .suscription{

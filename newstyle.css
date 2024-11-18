@@ -110,6 +110,7 @@ ul li:hover{
     background-color: rosybrown;
     color: rgb(0, 0, 0);
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 20px;
 
 } 
@@ -123,14 +124,32 @@ ul li:hover{
     margin: 10px;
 }
 
-.btn2{
+
+/* .btn .btn-primary {
+    width: 7em;
+    border-radius: 20px;
+    background-color: #4CAF50; /* Verde */
+    /* color: white;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}  */
+
+.btn.custom-btn {
+    background-color: #687144; /* Verde */
+    color: white; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight:bold;
     cursor: pointer;
-    transition: 0.5s;
 }
 
-.btn2:hover{
-    background-color: rgb(144, 192, 134);
+.btn.custom-btn:hover{
+    background-color: white;
+    color: #687144;
 }
+
+
 
 .card-1, .card-2, .card-3 {
     padding: 10px;
@@ -157,6 +176,39 @@ ul li:hover{
     gap: 10px;
     margin: 5px;
 }
+
+/* --- Comienza footer --- */
+.footer-container{
+    background-color: #faf5f1;
+}
+.navbar-footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar2-container{
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: normal;
+}
+.navbar2-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.container-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-size: small;
+}
+/* --- Finaliza footer --- */
+
 
 
 @media (min-width: 1024px) {

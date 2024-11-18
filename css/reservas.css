@@ -26,6 +26,7 @@ header{
 }
 ul li{
     text-decoration: none;
+    margin: 10px;
 }
 ul li:hover{
     text-decoration: underline;

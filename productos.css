@@ -1,0 +1,154 @@
+.playwrite-gb-s{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work-sans{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.h1-div h1{
+    color: #d2a5b0;
+    text-shadow: 2px 2px 2px rgb(242, 241, 241);
+    font-size: 4em;
+    text-align: center;
+    margin: 2rem;
+}
+.nav-img-container{
+    display: inline;
+}
+.bg-body-tertiary{
+    background-color: rgb(255, 255, 255)
+}
+
+.navbar-brand{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 2.5rem;
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+
+.busquedas-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.mb-3 label{
+    font-family: "work sans", cursive;
+    font-size: 1.2rem;
+}
+
+.nav_icons ul{
+    display: flex;
+    flex-direction: row nowrap;
+}
+.nav_icons ul li{
+    margin-right: 5px;
+}
+.person, .bag-fill {
+    padding: 2px; 
+}
+
+
+/*hierbas!! */
+.herbs-container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: 0.5s;
+}
+.herbs-container img:hover{
+    transform: scale(1.1);
+}
+
+/* --- Tazas --- */
+.h2-div{
+    text-align: center;
+    font-size: 3em;
+    margin: 3rem;
+    transition: 0.2s;
+}
+.h2-div:hover{
+    color: rosybrown
+}
+/* --- MEDIA QUERIES --- */
+@media screen and (max-width: 768px) {
+    .h1-div h1{
+        font-size: 3em;
+    }
+    .h2-div{
+        font-size: 2em;
+    }
+}
+
+/* --- Comienza footer --- */
+.footer-container{
+    background-color: #faf5f1;
+    margin-top: 3rem;
+}
+.navbar-footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbar2-container{
+    padding-left: 1rem;
+}
+#sobrenosotras{
+    font-size: 2rem;
+    color: rgb(38, 38, 38);
+}
+.descripcion-container{
+    display: flex;
+    justify-content: start;
+    width: 400px;
+}
+#descripcion{
+    font-size: 1rem;
+    color: rgb(38, 38, 38);
+}
+.container-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+#copyright{
+    font-size: 0.8rem;
+}
+ul li{
+    list-style: none;
+}
+.navbar2-container ul{
+    padding: 0;
+}
+.redes-sociales-container{
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: flex-start;
+}
+.redes-sociales{
+    color: rgb(156, 156, 156);
+    width: 30px;
+    height: 30px;
+}
+/* --- Finaliza footer --- */

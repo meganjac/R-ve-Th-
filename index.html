@@ -10,7 +10,7 @@
 <link rel="preconnect" href="command:workbench.trust.managehttps://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/stylesheets.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,6 @@
 
 <!--LINK TO BOOSTRAP (CSS)-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
 
 
 </head>
@@ -48,7 +47,7 @@
             </nav>
 
             <div class="nav-img-container">
-                <img src="img/logo.png" alt="Error" width="84px">
+                <img src="img/logo.png" alt="Logo" width="84px">
             </div>
             
         </div>
@@ -70,10 +69,10 @@
                     <ul>
                         <li><svg xmlns="http://www.w3.org/2000/svg" width="70" height="40" fill="currentColor" class="person" viewBox="0 0 16 16">
                             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
-                            </svg></li>
+                          </svg></li>
                         <li><svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" class="bag-fill" viewBox="0 0 16 16">
-                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
-                            </svg></li>
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                          </svg></li>
                     </ul>
                 </nav>
             </div>
@@ -92,78 +91,159 @@
                     </section>
                 </div>
 
-                <div class="section2"> <!--DIV Sección 2 de productos-->
-                    <div><h2 style="text-align: center; font-size: 3em;">Descubrí nuestras infusiones</h2></div>
-                    <section class="cards">
-                        <div class="infusion1" class="work-sans" class="col-sm-3">
-                            <img src="img/temanzanilla.jpg" width="100%" alt="" style="border-radius: 15px;">
-                            <p class="title">Té de manzanilla</p>
-                            <p>texto explicando este tipo de te...</p>
-                            <button><a href="#">Ver más</a></button>
+                <div class="section2"> <!--DIV Sección 2 de infusiones-->
+                    <div><h2 style="text-align: center; font-size: 2em; font-weight: lighter;">Descubrí nuestras infusiones</h2></div>
+                    <section class="cards row row-cols-2 row-cols-lg-4">
+                        <div class="infusion1">
+                            <img src="img/té/té-manzanilla.png" width="100%" alt="Té manzanilla">
+                            <div class="infusion1-text-container">
+                                <p class="text-infusion">Té de manzanilla</p>
+                            </div>
                         </div>
     
-                        <div class="infusion2" class="work-sans" class="col-sm-3">
-                            <img src="img/tenegro.jpg" width="100%" alt="" style="border-radius: 15px;">
-                            <p class="title">Té negro</p>
-                            <p>texto explicando este tipo de te...</p>
-                            <button><a href="#">Ver más</a></button>
+                        <div class="infusion2">
+                            <a href="#"><img src="img/té/earl-grey-tea.png" width="100%" alt="Earl Grey Tea"></a>
+                            
+                            <div class="infusion2-text-container">
+                                <p class="text-infusion">Earl Grey Tea</p>
+                            </div>
+                            
                         </div>
     
-                        <div class="infusion3" class="work-sans" class="col-xl-4 col-sm-3">
-                            <img src="img/teverde.jpg" width="100%" alt="" style="border-radius: 15px;">
-                            <p class="title">Té verde</p>
-                            <p>texto explicando este tipo de te...</p>
-                            <button><a href="#">Ver más</a></button>
+                        <div class="infusion3">
+                            <img src="img/té/té-rojo.png" width="100%" alt="Té rojo">
+                            <div class="infusion3-text-container">
+                                <p class="text-infusion">Té rojo</p>
+                            </div>
+                            
+                        </div>
+                        <div class="infusion4">
+                            <img src="img/té/yellow-tea.png" width="100%" alt="Té amarillo">
+                            <div class="infusion4-text-container">
+                                <p class="text-infusion">Té amarillo</p>
+                            </div>
+                            
                         </div>
                     </section>
                 </div>
 
-                <div class="section3"> <!--DIV de la sección 3 de reservas-->
+                <div class="section3"> <!--DIV Sección 3 de productos-->
+                    <div><h2 style="text-align: center; font-size: 2em; font-weight: lighter;">Conocé nuestros productos</h2></div>
+                    <section class="tipos-productos-container col-12 row row-cols-1 row-cols-md-2">
+                        <article class="container-productos-ver-mas">
+                            <div style="text-align: center;"> <!--centar la imágen-->
+                                <img src="img/products/tea-bag.jpg" alt="Saco de té" width="75%">
+                            </div>
+                            
+                            <div class="text-btn-sacos-te-container">
+                                <div>
+                                    <p class="primer-texto">Té en saquitos</p>
+                                    <p class="segundo-texto">De material biodegradable, cada saco está diseñado con colores que 
+                                        representan el sabor e ingredientes del té, haciendo de cada infusión una 
+                                        experiencia visual y sensorial única.</p>
+                                </div>
+                                <div class="btn-ver-mas-container">
+                                    <button class="btn-sacos-te"><a href="#">VER MÁS</a></button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="container-productos-ver-mas"> 
+                            <div style="text-align: center;"> <!--centar la imágen-->
+                                <img src="img/sets/set-té-caja-marrón.jpeg" alt="Set de tazas de té" width="75%"> 
+                            </div>
+                            
+                            <div class="text-btn-set-te-container">
+                                <div>
+                                    <p class="primer-texto">Sets de té</p>
+                                    <p class="segundo-texto">Descubre la armonía perfecta entre diseño y tradición con nuestros 
+                                        sets de té. Cada pieza está cuidadosamente seleccionada para transformar cada taza en un momento 
+                                        especial, ideal para los amantes del té y para quienes buscan regalar algo único.</p>
+                                </div>
+                                <div class="btn-ver-mas-container">
+                                    <button class="btn-set-te"><a href="#">VER MÁS</a></button>
+                                </div>
+                            </div>
+                        </article>
+
+                    </section>
+                </div>
+
+                <div class="section4"> <!--DIV de la sección 4 de reservas-->
                     <section>
                         <article>
-                            <h2 style="text-align: center; font-size: 3em;">Escogé tu mesa</h2>
-                            
-                            <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="img/place4-2.jpg" class="d-block mx-auto" width="300px" alt="Error">
+                            <div class="reservas col-12 row row-cols-1 row-cols-md-2" style="margin: 40px 0;"> <!--Desarrollado en mobile first-->
+                                <div class="revervas-text-container" style="padding-top: 70px;">
+                                    <div class="text-reservas">
+                                        <h2 style="font-size: 3em; font-weight: lighter;">Espacios únicos</h2>
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src="img/place3.jpg" class="d-block mx-auto" width="300px" alt="Error">
+                                    <div class="text-reservas">
+                                        <p>Conoce el Salón Principal, la Terraza y el Jardín. Escogé tu lugar preferido para una experiencia memorable.</p>
+                                    </div>
+                                    <div class="link-container" style="padding: 20px;">
+                                        <a href="#" id="link-reservas">¡Quiero reservar!</a>
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
+                                <div id="carousel-reserva" class="carousel slide">
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carousel-reserva" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carousel-reserva" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carousel-reserva" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="img/place10.jpg" class="d-block mx-auto" alt="Foto del salón" width="300px">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <p>Salón Principal</p>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/place11.jpg" class="d-block mx-auto" alt="Foto de la terraza" width="300px">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <p>Terraza</p>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/place12.jpg" class="d-block mx-auto" alt="Foto de Jardín" width="300px">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <p>Jardín</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-reserva" data-bs-slide="prev">
+                                      <span style="background-color: rgb(97, 94, 94); border-radius: 6px;" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-reserva" data-bs-slide="next">
+                                      <span style="background-color: rgb(97, 94, 94); border-radius: 6px;" class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      
+                                    </button>
+                                  </div>
+                                </div>
                             </div>
-
-                            <div class="p-container">
-                                <p>¡Quiero reservar!</p>
-                            </div>   
+                              
                         </article>
                     </section>
                 </div>
 
-                <div class="section4"> <!--DIV de la sección 4 newsletter-->
+                
+                <div class="section5"> <!--DIV de la sección 5 newsletter-->
                     <section>
                             <article class="container-newsletter col-12 my-4">
                                 <div class="container-text-novedades">
                                     <p>NO<br>VE <br>DA<br>DES</p>
                                 </div>
-                                <div class="suscription">
+                                <div class="suscription"> <!--contiene el campo para colocar mail-->
                                     <form class="row g-3">
                                             <div class="container-suscription-text">
-                                                <p class="texto-suscripcion">No te pierdas nuestros eventos</p>
+                                                <p class="texto-suscripcion">No te pierdas nuestros eventos :)</p>
                                             </div>
                                             <div class="btn-campo-suscription-container">
-                                                <div class="campo-suscripcion col-auto">
+                                                <div class="campo-suscripcion">
                                                     <input type="email" class="form-control" id="inputPassword2" placeholder="Suscríbete al Newsletter">
                                                 </div>
-                                                <div class="boton-enviar col-auto">
-                                                    <button type="submit" class="btn btn-primary mb-3">ENVIAR</button>
+                                                <div class="boton-enviar">
+                                                    <button type="submit" class="btn-primary mb-3">ENVIAR</button>
                                                 </div>
                                             </div>
                                     </form>
@@ -172,30 +252,50 @@
                     </section>
                 </div>
 
-                <div class="section5"> <!--DIV de la sección 5 RESEÑAS-->
+                <div class="section6"> <!--DIV de la sección 6 RESEÑAS-->
                     <section>
-                        <article>
-                            <h2 style="text-align: center; font-size: 3em;">¿Qué opinan nuestros clientes?</h2>
+                        <div><h2 style="text-align: center; font-size: 2em; font-weight: lighter;">Testimonios</h2></div>
+                        <article class="cards-reseñas">
+                            <div class="review row row-cols-2 row-cols-lg-4"> <!--Desarrollado en mobile first y luego responsive para medium/large-->
 
-                            <div id="carouselExample" class="carousel slide">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="img/cookies2-2.png" class="d-block mx-auto" alt="Error" width="300px">
+                                <div id="review1">
+                                    <div class="user">
+                                        <img src="img/users/user-dua.png" alt="Usuario" width="40px">
+                                        <p>Dua Lipa</p>
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src="img/cookies2-2.png" class="d-block mx-auto" alt="Error" width="300px">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/cookies2-2.png" class="d-block mx-auto" alt="Error" width="300px">
-                                    </div>
+                                    <blockquote>
+                                        <p>Fui con mis amigas a merendar y la comidad es exquisita, así como la decoración del lugar. La atención es muy buena, lo súper recomiendo.</p>
+                                    </blockquote>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                
+                                <div id="review2">
+                                    <div class="user">
+                                        <img src="img/users/user-maria.png" alt="Usuario" width="40px">
+                                        <p>María Castagna</p>
+                                    </div>
+                                    <blockquote>
+                                        <p>Compré un set de té y los uso cada vez que tengo visitas. Es hermoso y la calidad es muy buena!! Pronto compro de nuevo.</p>
+                                    </blockquote>
+                                </div>
+                                <div id="review3">
+                                    <div class="user">
+                                        <img src="img/users/user-ramiro.png" alt="Usuario" width="40px">
+                                        <p>Ramiro Doblestone</p>
+                                    </div>
+                                    <blockquote>
+                                        <p>¡Excelentes tés! Compré dos cajas de múltiples sabores, ¡No me decepcionaron! A pesar de que tuve inconvenientes con el envío, lo solucionaron de manera rápida y eficaz.</p>
+                                    </blockquote>
+                                </div>
 
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
+                                <div id="review4">
+                                    <div class="user">
+                                        <img src="img/users/user-ignacio.png" alt="Usuario" width="40px">
+                                        <p>Ignacio Rubber</p>
+                                    </div>
+                                    <blockquote>
+                                        <p>Es increíble la variedad de tés que ofrecen. He probado el Earl Grey Tea en hebras y es riquísimo. Recomiendo, 10/10.</p>
+                                    </blockquote>
+                                </div>
                             </div>
                         </article>
                     </section>
@@ -204,7 +304,7 @@
             </main>
         </div>
 
-            <div class ="footer-container">
+            <div class ="footer-container"> <!--EDITAR FOOTER-->
                 <!--FOOTER-->
                 <footer class="work-sans"> 
                     <div class="navbar-footer-container" class="work-sans">

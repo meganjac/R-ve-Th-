@@ -1,0 +1,146 @@
+.playwrite-gb-s{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work-sans{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* --- Comienza el header --- */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.nav-img-container{
+    display: inline;
+}
+.bg-body-tertiary{
+    background-color: rgb(255, 255, 255)
+}
+.navbar-brand{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 2.5rem;
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+.busquedas-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+.mb-3 label{
+    font-family: "work sans", cursive;
+    font-size: 1.2rem;
+}
+.nav_icons ul{
+    display: flex;
+    flex-direction: row nowrap;
+}
+.nav_icons ul li{
+    margin-right: 5px;
+}
+.person, .bag-fill {
+    padding: 2px; 
+}
+/* --- Finaliza el header --- */
+
+.menu-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    padding: 25px;
+}
+
+.main-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                 url(../img/place11cut.jpg) no-repeat fixed;
+    background-size: cover;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        padding: 10px;
+    }
+
+    .menu-title-container {
+        margin-bottom: 20px; 
+    }
+
+    .menu-img img {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+/* --- Comienza footer --- */
+.footer-container{
+    background-color: #faf5f1;
+    margin-top: 3rem;
+}
+.navbar-footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbar2-container{
+    padding-left: 1rem;
+}
+#sobrenosotras{
+    font-size: 2rem;
+    color: rgb(38, 38, 38);
+}
+.descripcion-container{
+    display: flex;
+    justify-content: start;
+    width: 400px;
+}
+#descripcion{
+    font-size: 1rem;
+    color: rgb(38, 38, 38);
+}
+.container-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+#copyright{
+    font-size: 0.8rem;
+}
+ul li{
+    list-style: none;
+}
+.navbar2-container ul{
+    padding: 0;
+}
+.redes-sociales-container{
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: flex-start;
+}
+.redes-sociales{
+    color: rgb(156, 156, 156);
+    width: 30px;
+    height: 30px;
+}
+/* --- Finaliza footer --- */

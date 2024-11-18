@@ -61,6 +61,10 @@ ul li:hover{
     height: 100%;
     border-radius: 10%;
     transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 .img-container1:hover img, 
 .img-container2:hover img, 
@@ -71,9 +75,6 @@ ul li:hover{
 .img-container2 p, 
 .img-container3 p{
     position: absolute;
-    top: 45%;
-    left: 45%;
-    transform: translate(-45%, -45%);
     color: white;
     font-size: 2rem;
     font-family: "Work Sans", sans-serif;
@@ -232,6 +233,6 @@ ul li{
     .img-container1 p, 
     .img-container2 p, 
     .img-container3 p{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }

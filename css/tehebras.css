@@ -46,6 +46,19 @@ ul li:hover{
 
 /* --- Finaliza el header --- */
 
+/*--- Comienza sección de tés en hebras ---*/
+.img-hebras{
+    max-width: 100%;
+    margin: 0 auto;
+    transition: 0.5s;
+    text-align: center;
+}
+.img-hebras:hover{
+    transform: scale(1.1);
+}
+/* --- Finaliza sección de tés en hebras --- */
+
+
 /* --- Comienza footer --- */
 .footer-container{
     background-color: #faf5f1;

@@ -1,2 +1,1 @@
-NEW PLUG IN: LightBox 
-Realizar un archivo humans.txt
+Código Finalizado en *Main*

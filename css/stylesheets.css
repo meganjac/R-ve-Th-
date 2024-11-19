@@ -194,7 +194,10 @@ ul li:hover{
 .reservas{
     background: url(/img/pink-wallpaper.jpg) no-repeat center fixed;
     background-size: cover;
-} 
+}
+.reservas-text-container{
+    padding-top: 70px;
+}
 .text-reservas{
     text-align: center;
     margin-bottom: 20px;
@@ -207,6 +210,7 @@ ul li:hover{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    padding: 20px;
 }
 #link-reservas{
     font-weight: bold;

@@ -1,21 +1,10 @@
-.playwrite-gb-s{
-    font-family: "Playwrite GB S", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.work-sans{
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-}
-
 /* --- Comienza el header --- */
 .header-container{
     display: flex;
     justify-content: space-between;
+}
+h2{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .nav-img-container{
     display: inline;
@@ -34,40 +23,56 @@ ul li{
 ul li:hover{
     text-decoration: underline;
 }
-
+.busquedas-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+.mb-3 label{
+    font-family: "work sans", cursive;
+    font-size: 1.2rem;
+}
+.nav_icons ul{
+    display: flex;
+    flex-direction: row nowrap;
+}
+.nav_icons ul li{
+    margin-right: 5px;
+}
+.person, .bag-fill {
+    padding: 2px; 
+}
 /* --- Finaliza el header --- */
 
-.menu-section{
+/* ------ general --------- */
+.playwrite-gb-s {
+    color: rgb(113, 107, 146);
+    margin-top: 40px;
+} 
+.flex-container2 {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 30px;
-    padding: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;
+    padding: 10px; 
+    margin-top: 50px;
+    margin-left: 92px;
+}
+/* ------- termina general ---------- */
+
+.button1 {
+    padding: 10px 20px;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    border: solid black 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.main-container{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                 url(../img/menu/place11cut.jpg) no-repeat fixed;
-    background-size: cover;
-    background-color: transparent;
-}
-
-@media screen and (max-width: 768px) {
-    .main-container {
-        padding: 10px;
-    }
-
-    .menu-title-container {
-        margin-bottom: 20px; 
-    }
-
-    .menu-img img {
-        width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-        display: block;
-    }
-}
 
 /* --- Comienza footer --- */
 .footer-container{
@@ -84,6 +89,15 @@ ul li:hover{
 }
 #sobrenosotras{
     font-size: 2rem;
+    color: rgb(38, 38, 38);
+}
+.descripcion-container{
+    display: flex;
+    justify-content: start;
+    width: 400px;
+}
+#descripcion{
+    font-size: 1rem;
     color: rgb(38, 38, 38);
 }
 .container-copyright{

@@ -17,6 +17,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+.h1-div h1{
+    color: #d2a5b0;
+    text-shadow: 2px 2px 2px rgb(242, 241, 241);
+    font-size: 4em;
+    text-align: center;
+    margin: 2rem;
+}
+
 .nav-img-container{
     display: inline;
 }
@@ -34,38 +43,65 @@ ul li{
 ul li:hover{
     text-decoration: underline;
 }
-
+.busquedas-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+.mb-3 label{
+    font-family: "work sans", cursive;
+    font-size: 1.2rem;
+}
+.nav_icons ul{
+    display: flex;
+    flex-direction: row nowrap;
+}
+.nav_icons ul li{
+    margin-right: 5px;
+}
+.person, .bag-fill {
+    padding: 2px; 
+}
 /* --- Finaliza el header --- */
 
-.menu-section{
+/*Sección de sets */
+.sets-container img{
     display: flex;
     justify-content: center;
-    text-align: center;
-    margin: 30px;
-    padding: 25px;
+    align-items: center;
+    margin: auto;
+    transition: 0.5s;
+}
+.sets-container img:hover{
+    transform: scale(1.1);
+}
+.cards{
+    margin: auto;
+    width: 20%;
+}
+.col img{
+    vertical-align: baseline;
+}
+.list-group-item{
+    text-decoration: none;
+    text-align: start;
+    margin-top: 10px;
 }
 
-.main-container{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                 url(../img/menu/place11cut.jpg) no-repeat fixed;
-    background-size: cover;
-    background-color: transparent;
-}
 
+/* --- MEDIA QUERIES --- */
 @media screen and (max-width: 768px) {
-    .main-container {
-        padding: 10px;
+    .h1-div h1{
+        font-size: 3em;
     }
-
-    .menu-title-container {
-        margin-bottom: 20px; 
+    #description{
+        font-size: 1rem;
     }
-
-    .menu-img img {
-        width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-        display: block;
+}
+@media screen and (min-width: 768px) {
+    #descripcion{
+        font-size: 1.2rem;
     }
 }
 

@@ -3,9 +3,19 @@
     display: flex;
     justify-content: space-between;
 }
+
 h2{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.h1-div h1{
+    color: #d2a5b0;
+    text-shadow: 2px 2px 2px rgb(242, 241, 241);
+    font-size: 4em;
+    text-align: center;
+    margin: 2rem;
+}
+
 .nav-img-container{
     display: inline;
 }

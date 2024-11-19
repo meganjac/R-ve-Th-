@@ -1,10 +1,21 @@
+.playwrite-gb-s{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work-sans{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+/*HEADER y NAV BAR*/
 /* --- Comienza el header --- */
 .header-container{
     display: flex;
     justify-content: space-between;
-}
-h2{
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .nav-img-container{
     display: inline;
@@ -45,36 +56,64 @@ ul li:hover{
 }
 /* --- Finaliza el header --- */
 
-/* ------ general --------- */
-.playwrite-gb-s {
-    color: rgb(113, 107, 146);
-    margin-top: 40px;
-} 
-.flex-container2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 100px;
-    align-items: center;
-    padding: 10px; 
-    margin-top: 50px;
-    margin-left: 92px;
+/*ACCESORIOS */
+.h1-div h1{
+    color: #d2a5b0;
+    text-shadow: 2px 2px 2px rgb(242, 241, 241);
+    font-size: 4em;
+    text-align: center;
+    margin: 2rem;
 }
-/* ------- termina general ---------- */
-
-.button1 {
-    padding: 10px 20px;
-    font-size: 15px;
-    color:rgb(0, 0, 0);
-    border: solid black 1px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 100px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.accesorios-container{
+    margin: 90px 10px;
+}
+.accesorios-container img{
+    transition: 0.5s;
+}
+.accesorios-container img:hover{
+    transform: scale(1.1);
+}
+.cards{
+    width: 60%;
+    margin: 30px auto;
+}
+img{
+    vertical-align:middle;
+    width: 90%;
+    padding: 0 auto;
+}
+.list-group-item{
+    text-align: start;
+    margin: 0;
 }
 
+.btn-agregar{
+    width: auto;
+    border-radius: 20px;
+    background-color: #FFD0D0;
+    border: none;
+    color: white; /* Color del texto "ENVIAR" */
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    font-size: 1em;
+}
+.btn-agregar:hover{
+    background-color: #D76C82; 
+    color: #ffffff;
+}
+/* --- MEDIA QUERIES --- */
+@media screen and (max-width: 768px) {
+    .h1-div h1{
+        font-size: 3em;
+    }
+    .h2-div{
+        font-size: 2em;
+    }
+    .cards{
+        width: 20%;
+    }
+}
 
-/* --- Comienza footer --- */
 .footer-container{
     background-color: #faf5f1;
     margin-top: 3rem;
@@ -89,15 +128,6 @@ ul li:hover{
 }
 #sobrenosotras{
     font-size: 2rem;
-    color: rgb(38, 38, 38);
-}
-.descripcion-container{
-    display: flex;
-    justify-content: start;
-    width: 400px;
-}
-#descripcion{
-    font-size: 1rem;
     color: rgb(38, 38, 38);
 }
 .container-copyright{

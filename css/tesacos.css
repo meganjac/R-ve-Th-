@@ -72,6 +72,20 @@ ul li:hover{
     width: 90%;
     margin: 10%;
 }
+.btn-agregar{
+    width: auto;
+    border-radius: 20px;
+    background-color: #FFD0D0;
+    border: none;
+    color: white; /* Color del texto "ENVIAR" */
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    font-size: 1em;
+}
+.btn-agregar:hover{
+    background-color: #D76C82; 
+    color: #ffffff;
+}
 /* --- MEDIA QUERIES --- */
 @media screen and (max-width: 768px) {
     .h1-div h1{

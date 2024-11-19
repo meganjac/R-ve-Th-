@@ -47,7 +47,7 @@ ul li:hover{
 
 .main-container{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                 url(../img/menu/place11cut.jpg) no-repeat fixed;
+                url(../img/menu/place11cut.jpg) no-repeat fixed;
     background-size: cover;
     background-color: transparent;
 }

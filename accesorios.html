@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+    <title>Productos - Té en saquitos</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="command:workbench.trust.managehttps://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
         
-    <link rel="stylesheet" href="css/accesorios.css">
+    <link rel="stylesheet" href="accesorios-style.css">
+    <link rel="stylesheet" href="pluggin/floating-wpp.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,28 +18,11 @@
     
     <!--LINK TO BOOSTRAP (CSS)-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-     <!-- jQuery (requerido para Owl Carousel) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- Owl Carousel JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
- 
 </head>
 
-
-
 <body>
+    <div class="pagina"></div>
 
-    <div class="principal">
         <div class="header-container"> <!--Imagen del logo-->
 
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -50,17 +34,12 @@
 
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="aboutus.html">Sobre Nosotras</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownte" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Tés 
-                                </a>
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tés </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="tehebras.html"> Té en hebras </a></li>
                                     <li><a class="dropdown-item" href="tesacos.html"> Té en saquitos </a></li>
-                                    
-
-                        
                                 </ul>
                             </li>
                            
@@ -69,17 +48,15 @@
                                     Accesorios 
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="productoTazas.html"> Tazas </a></li>
                                     <li><a class="dropdown-item" href="sets.html"> Sets </a></li>
-                                    <li><a class="dropdown-item" href="nuestrastazas.html"> Tazas </a></li>
-
-                        
+                                    <li><a class="dropdown-item" href="accesorios.html"> Más Accesorios </a></li>
                                 </ul>
                             </li>
 
                             <li class="nav-item"><a class="nav-link active" aria-current="page" href="reservas.html">Reservar</a></li>
                             <li class="nav-item"><a class="nav-link active" aria-current="page" href="newsletter.html">Newsletter</a></li>
                             <li class="nav-item"><a class="nav-link active" aria-current="page" href="menu.html">Menú</a></li>
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
                         </ul>
                     </div>
                 </div>
@@ -88,163 +65,180 @@
             <div class="nav-img-container">
                 <img src="img/logo.png" alt="Logo" width="84px">
             </div>
-        </div> 
-
-        <div class="section3">
-            <div class="work-sans">
-                <div>
-                    <h2 class="work-sans" style="text-align: center; font-size: 3em;" > Accesorios </h2>
-                </div>
-                    <div class="flex-container2">
-                        <div class="flex-box26">
-                            <div class="image-wrapper18">
-                                <img src="img/accesorios/accesorio1.jpeg" alt="Taza blanca y negra" width="350" height="300">
-                                
-                                <div class="overlay18">
-                                    <p> Set 8 cucharas plateadas $8.000 </p>
-                                </div>
-
-                            </div>
-                            <button class="button1" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
+        </div>
+            
+    </div>
+<main>
+    <div class="work-sans">
+        <div class="h1-div"><h1>Para el día a día</h1></div>
+        
+        <div class="accesorios-section work-sans">
+                <div class="accesorios-container">
+                    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 gx-2">
+                        <div class="cards col mb-5" style="text-align: center;">
+                                <img src="img/extra/infusor1.jpg" alt="Infusor">
+                            <ul>
+                                <li class="list-group-item" style="font-weight: bold; font-size:1.5em; color: #75726e;">$ 8700</li>
+                                <li class="list-group-item"><h2 style="font-size: 1em; font-weight: lighter; letter-spacing: 1.3px; color: #75726e;">Infusor</h2></li>
+                            </ul>  
+                                <button class="btn-agregar" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
+                              
+                                                     
                         </div>
 
-                        <div class="flex-box25">
-                            <div class="image-wrapper17">
-                                <img src="img/accesorios/accesorio2.jpeg" alt="Taza frutillas"  width="350" height="300">
-
-                                <div class="overlay17">
-                                    <p> Set 4 cucharas doradas $4.000 </p>
-                                </div>
-                            </div>
-                            <button class="button1" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
+                        <div class="cards col mb-5" style="text-align: center;">
+                            
+                                <img src="img/tetera/frenchpress.jpg" alt="Prensa francesa">
+                        
+                            <ul>
+                                <li class="list-group-item" style="margin-top:10px; font-weight: bold; font-size:1.5em; color: #75726e">$ 15300</li>
+                                <li class="list-group-item"><h2 style="font-size: 1em; font-weight: lighter; letter-spacing: 1.3px; color: #75726e">Prensa francesa</h2></li>
+                            </ul>
+                            <button class="btn-agregar" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
                         </div>
 
-                        <div class="flex-box24">
-                            <div class="image-wrapper16">
-                                <img src="img/accesorios/accesorio3.jpeg" alt="Taza nube"  width="350" height="300">
-
-                                <div class="overlay16">
-                                    <p> Taza Meg $28.900 </p>
-                                </div>
-                            </div>
-                            <button class="button1" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
+                        <div class="cards col mb-5" style="text-align: center;">
+                            
+                                <img src="img/tetera/tetera-con-filtro.jpg" alt="Tetera con filtro" >
+                            
+                            <ul>
+                                <li class="list-group-item" style="font-weight: bold; font-size:1.5em; color: #75726e">$ 15000</li>
+                                <li class="list-group-item"><h2 style="font-size: 1em; font-weight: lighter; letter-spacing: 1.3px;  color: #75726e">Tetera con filtro</h2></li>
+                            </ul>
+                            <button class="btn-agregar" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
+                        </div>
+                        <div class="cards col mb-5" style="text-align: center;">
+                            
+                                <img src="img/tetera/TeteraHapril.jpeg" alt="Tetera Hapril">
+                        
+                            <ul>
+                                <li class="list-group-item" style=" font-weight: bold; font-size:1.5em; color: #75726e">$ 12000</li>
+                                <li class="list-group-item"><h2 style=" font-size: 1em; font-weight: lighter;; letter-spacing: 1.3px; color: #75726e">Tetera Hapril</h2></li>
+                            </ul>
+                            <button class="btn-agregar" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
+                        </div>
+                        <div class="cards col mb-5" style="text-align: center;">
+                            
+                                <img src="img/cucharas/cucharas-doradas.png" alt="Set 6 cucharas doradas" width="300" height="300vh">
+                            
+                            <ul>
+                                <li class="list-group-item" style="font-weight: bold; font-size:1.5em; color: #75726e;">$ 3000</li>
+                                <li class="list-group-item"><h2 style="font-size: 1em; font-weight: lighter; letter-spacing: 1.3px;  color: #75726e;">set 6 cucharas Leaves</h2></li>
+                            </ul>
+                            <button class="btn-agregar" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
                         </div>
 
-                        <div class="flex-box23">
-                            <div class="image-wrapper15">
-                                <img src="img/accesorios/accesorio4.jpeg" alt="Earl Grey"  width="350" height="300">
-                                <div class="overlay15">
-                                    <p> Taza Mel $29.800 </p>
-                                </div>
+                        <div class="cards col mb-5" style="text-align: center;">
+                            
+                                <img src="img/cucharas/cucharas-plateadas.jpeg" alt="Set 8 cucharas plateadas" width="300" height="300vh">
+                            
+                            <ul>
+                                <li class="list-group-item" style="font-weight: bold; font-size:1.5em; color: #75726e">$ 5000</li>
+                                <li class="list-group-item"><h2 style=" font-size: 1em; font-weight: lighter; letter-spacing: 1.3px; color: #75726e">Set 8 cucharas Flower</h2></li>
+                            </ul>
+                            <button class="btn-agregar" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
+                        </div>
+                    
+                        <div class="cards col mb-5" style="text-align: center;">
+                            <div>
+                                <img src="img/extra/lili.jpg" alt="Portavasos Lili" width="300" height="300vh">
                             </div>
-                            <button class="button1" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
+                            <ul>
+                                <li class="list-group-item" style="font-weight: bold; font-size:1.5em; color: #75726e">$ 7000</li>
+                                <li class="list-group-item"><h2 style=" font-size: 1em; font-weight: lighter; letter-spacing: 1.3px; color: #75726e">Set portavasos Lili</h2></li>
+                            </ul>
+                            <button class="btn-agregar" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
                         </div>
 
-                        <div class="flex-box22">
-                            <div class="image-wrapper14">
-                                <img src="img/accesorios/accesorio5.jpeg" alt="Earl Grey"  width="350" height="300">
-
-                                <div class="overlay14">
-                                    <p> Taza Cam $27.000</p>
-                                </div>
+                        <div class="cards col mb-5" style="text-align: center;">
+                            <div>
+                                <img src="img/extra/nature.jpg" alt="Set portavasos Nature" width="300" height="300vh">
                             </div>
-                            <button class="button1" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
+                            <ul>
+                                <li class="list-group-item" style="font-weight: bold; font-size:1.5em; color: #75726e">$ 7000</li>
+                                <li class="list-group-item"><h2 style=" font-size: 1em; font-weight: lighter; letter-spacing: 1.3px; color: #75726e"></h2>Set portavasos Nature</li>
+                            </ul>
+                            <button class="btn-agregar" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
+                        </div>
+                        
+                        <div class="cards col mb-5" style="text-align: center;">
+                            <div>
+                                <img src="img/extra/sunny.jpg" alt="Set portavasos Sunny" width="300" height="300vh">
+                            </div>
+                            <ul>
+                                <li class="list-group-item" style="font-weight: bold; font-size:1.5em; color: #75726e">$ 7000</li>
+                                <li class="list-group-item"><h2 style="font-size: 1em; font-weight: lighter; letter-spacing: 1.3px; color: #75726e"></h2>Set portavasos Sunny</li>
+                            </ul>
+                            <button class="btn-agregar" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
                         </div>
 
-                        <div class="flex-box21">
-                            <div class="image-wrapper13">
-                                <img src="img/accesorios/accesorio6.jpeg" alt="Earl Grey"  width="350" height="300">
-
-                                <div class="overlay13">
-                                    <p> Taza "Begin again" $24.000 </p>
-                                </div>
-                            </div>
-                            <button class="button1" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
-                        </div>
-
-                        <div class="flex-box20">
-                            <div class="image-wrapper12">
-                                <img src="img/accesorios/accesorio7.jpeg" alt="Earl Grey"  width="350" height="300">
-
-                                <div class="overlay12">
-                                    <p> Taza Violet $22.000 </p>
-                                </div>
-                            </div>
-                            <button class="button1" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
-                        </div>
-
-                        <div class="flex-box19">
-                            <div class="image-wrapper11">
-                                <img src="img/accesorios/accesorio8.jpeg" alt="Earl Grey"  width="350" height="300">
-
-                                <div class="overlay11">
-                                    <p> Taza ensueños $24.600</p>
-                                </div>
-                            </div>
-                            <button class="button1" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
-                        </div>
-                        <div class="flex-box18">
-                            <div class="image-wrapper10">
-                                <img src="img/accesorios/accesorio9.jpeg" alt="Earl Grey"  width="350" height="300">
-
-                                <div class="overlay10">
-                                    <p> Taza ensueños $24.600</p>
-                                </div>
-                            </div>
-                            <button class="button1" onclick="alert('Producto añadido al carrito')"> Añadir al carrito </button>
-                        </div>
+                    </div>
+                </div>             
+        </div>
+        <div class ="footer-container">
+            <!--FOOTER-->
+            <footer class="work-sans"> 
+                <div class="navbar-footer-container" class="work-sans">
+                    <div class="navbar2-container">
+                        <p id="sobrenosotras">Sobre Nosotras</p>
+                        <nav>
+                            <ul>
+                                <li>Chauque, Abril - Licenciatura en Sistemas</li>
+                                <li>Mendoza, Martina - Tecnicatura Desarrollo de Software</li>
+                                <li>Rodríguez, Megan - Tecnicatura Desarrollo de Software</li>
+                                <li>Rodríguez, Melanie - Tecnicatura Desarrollo de Software</li>
+                                <li>Rondona, Camila - Licenciatura en Sistemas</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="navbar1-container">
+                        <nav>
+                            <ul class="redes-sociales-container">
+                                    <li><a href="#" class="redes-sociales"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                                        </svg></a></li>
+                                <li><a href="#" class="redes-sociales"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                                    </svg></a></li>
+                                <li><a href="#" class="redes-sociales"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                    </svg></a></li>
+                                <li><a href="#" class="redes-sociales"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                                    <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+                                    <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                                    </svg></a></li>
+                            </ul>
+                            <li></li>
+                                <div class="floating-wpp"></div></li>
+                        </nav>
                     </div>
                 </div>
-            </div>
-    </div>
-
-
-    <div class ="footer-container">
-        <!--FOOTER-->
-        <footer class="work-sans"> 
-            <div class="navbar-footer-container" class="work-sans">
-                <div class="navbar2-container">
-                    <p id="sobrenosotras">Sobre Nosotras</p>
-                    <div class="descripcion-container">
-                        <p id="descripcion">Nos encontramos cursando nuestro primer año en las respectivas carreras de Tecnicatura en desarrollo de software
-                            y Licenciatura en Gestión de Tecnología de la Información.
-                        </p>
-                    </div>
-                    <nav>
-                        <ul>
-                            <li>Chauque, Abril - Licenciatura en Sistemas</li>
-                            <li>Mendoza, Martina - Tecnicatura Desarrollo de Software</li>
-                            <li>Rodríguez, Megan - Tecnicatura Desarrollo de Software</li>
-                            <li>Rodríguez, Melanie - Tecnicatura Desarrollo de Software</li>
-                            <li>Rondona, Camila - Licenciatura en Sistemas</li>
-                        </ul>
-                    </nav>
+                <div class="container-copyright">
+                    <p id="copyright">Rêve & Thé © 2024. All rights reserved</p>
                 </div>
-                <div class="navbar1-container">
-                    <nav>
-                        <ul class="redes-sociales-container">
-                            <li><a href="#" class="redes-sociales"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
-                                </svg></a></li>
-                            <li><a href="#" class="redes-sociales"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-                                </svg></a></li>
-                            <li><a href="#" class="redes-sociales"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                                </svg></a></li>
-                            <li><a href="#" class="redes-sociales"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
-                                <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
-                                <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
-                                </svg></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div class="container-copyright">
-                <p id="copyright">Rêve & Thé © 2024. All rights reserved</p>
-            </div>
-        </footer>
-    </div>
+            </footer>
+        </div>
+            
+</main>
+    
+        
 
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/pluggin/floating-wpp.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(function () {
+                $('.floating-wpp').floatingWhatsApp({
+                phone: 'xxxxxxxxxx',
+                popupMessage: 'Hola! ¿Cómo puedo ayudarte?',
+                showPopup: true,
+                message: 'Escriba aquí su mensaje',
+                headerTitle: 'Atención al Cliente',
+                position: 'right',
+                });
+            });
+        });
+    </script>
 </body>
-
+</html>

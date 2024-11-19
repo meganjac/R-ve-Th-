@@ -65,22 +65,26 @@ ul li:hover{
     margin: 2rem;
 }
 .accesorios-container{
-    margin: 90px 10px;
+    margin: 10px;
+    text-align: center;
+
 }
 .accesorios-container img{
+    width: 100%;
     transition: 0.5s;
 }
 .accesorios-container img:hover{
     transform: scale(1.1);
 }
 .cards{
-    width: 60%;
-    margin: 30px auto;
+    width: 20%;
+}
+.col img{
+    vertical-align: baseline;
 }
 .img-accesorios img{
-    vertical-align:middle;
     width: 90%;
-    padding: 0 auto;
+    margin: 10%;
 }
 .list-group-item{
     text-align: start;
@@ -108,9 +112,6 @@ ul li:hover{
     }
     .h2-div{
         font-size: 2em;
-    }
-    .cards{
-        width: 20%;
     }
 }
 
@@ -150,6 +151,7 @@ ul li{
     display: flex;
     flex-direction: column-reverse;
     align-self: flex-start;
+    margin: 20px;
 }
 .redes-sociales{
     color: rgb(156, 156, 156);

@@ -204,6 +204,7 @@ ul li{
     display: flex;
     flex-direction: column-reverse;
     align-self: flex-start;
+    margin: 20px;
 }
 .redes-sociales{
     color: rgb(156, 156, 156);

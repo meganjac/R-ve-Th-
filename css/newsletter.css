@@ -94,7 +94,7 @@ ul li:hover{
     margin: 20px;
     font-size: 1.2em;
     color: rgb(255, 255, 255);
-    background-color: rosybrown;
+    background-color: rgb(226, 198, 198);;
     border: none;
     transition: 0.5s;
     cursor: pointer;
@@ -103,12 +103,11 @@ ul li:hover{
 
 .btn1:hover{
     color: rgb(0, 0, 0);
-    background-color: rosybrown;
+    background-color: rgb(226, 198, 198);
 }
 
 .newsection2{
-    background-color: rosybrown;
-    color: rgb(255, 255, 255);
+    background-color: rgb(226, 198, 198);
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;

@@ -76,6 +76,11 @@ ul li:hover{
     align-items: center;
     min-height: 60vh;
 }
+.h1-container h1{
+    color: rgb(251, 251, 251); 
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); 
+    font-size: 5em;
+}
 /* --- Finaliza el section1 BANNER--- */
 
 
@@ -84,6 +89,11 @@ ul li:hover{
 .section2{
     padding: 100px 30px 20px;
     background-color: #ffffff;
+}
+.section2 h2{
+    text-align: center; 
+    font-size: 2em; 
+    font-weight: lighter;
 }
 .section2 div{
     margin: 0 0 60px;
@@ -95,7 +105,7 @@ ul li:hover{
     justify-content: space-evenly;
     margin-top: 70px;
     padding: 20px;
-   
+
 }
 .infusion1:hover, .infusion2:hover, .infusion3:hover, .infusion4:hover{
     transform: scale(1.1);
@@ -134,6 +144,11 @@ ul li:hover{
 
 
 /* --- Comienza el section3 PRODUCTOS (pensado en Mobile First)--- */
+.section3 h2{
+    text-align: center;
+    font-size: 2em; 
+    font-weight: lighter;
+}
 .container-productos-ver-mas{
     padding: 40px;
 }
@@ -179,12 +194,15 @@ ul li:hover{
 .reservas{
     background: url(/img/pink-wallpaper.jpg) no-repeat center fixed;
     background-size: cover;
-
 } 
 .text-reservas{
     text-align: center;
     margin-bottom: 20px;
-}       
+}  
+.text-reservas h2{
+    font-size: 3em; 
+    font-weight: lighter;
+}     
 .link-container{
     display: flex;
     justify-content: center;
@@ -199,6 +217,9 @@ ul li:hover{
 }
 #link-reservas:hover{
     color: #8E3E63;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgb(97, 94, 94); border-radius: 6px;
 }
 /* --- Finaliza la section4 --- */
 
@@ -271,6 +292,11 @@ ul li:hover{
 
 
 /* --- Comienza la secion6  RESEÑAS--- */
+.section6 h2{
+    text-align: center; 
+    font-size: 2em; 
+    font-weight: lighter;
+}
 .review{
     display: flex;
     flex-direction: row;
@@ -278,7 +304,6 @@ ul li:hover{
     justify-content: space-evenly;
     margin-top: 70px;
     padding: 20px;
-   
 }
 #review1, #review2, #review3, #review4{
     padding: 30px;

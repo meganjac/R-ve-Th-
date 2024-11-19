@@ -1,0 +1,584 @@
+/* --- Comienza el header --- */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.nav-img-container{
+    display: inline;
+}
+.bg-body-tertiary{
+    background-color: rgb(255, 255, 255)
+}
+.navbar-brand{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 2.5rem;
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+.busquedas-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+.mb-3 label{
+    font-family: "work sans", cursive;
+    font-size: 1.2rem;
+}
+.nav_icons ul{
+    display: flex;
+    flex-direction: row nowrap;
+}
+.nav_icons ul li{
+    margin-right: 5px;
+}
+.person, .bag-fill {
+    padding: 2px; 
+}
+/* --- Finaliza el header --- */
+
+/* ------ general --------- */
+.playwrite-gb-s {
+    color: rgb(113, 107, 146);
+    margin-top: 40px;
+} 
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;
+    padding: 10px; 
+    margin-top: 50px;
+    margin-left: 92px;
+}
+/* ------- termina general ---------- */
+
+/* --------------- EDICION DE LAS IMAGENES ----------------- */
+.flex-box10 img {
+    border: solid #ddd 2px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1); 
+}
+.flex-box10 img:hover {
+    transform: scale(1.1); 
+}
+
+.flex-box11 img {
+    border: solid #ddd 2px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1); 
+}
+.flex-box11 img:hover {
+    transform: scale(1.1); 
+}
+
+.flex-box12 img {
+    border: solid #ddd 2px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1); 
+}
+.flex-box12 img:hover {
+    transform: scale(1.1); 
+}
+
+.flex-box13 img {
+    border: solid #ddd 2px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1); 
+    padding: 14px;
+}
+.flex-box13 img:hover {
+    transform: scale(1.1); 
+}
+
+.flex-box14 img {
+    border: solid #ddd 2px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1); 
+}
+.flex-box14 img:hover {
+    transform: scale(1.1); 
+}
+
+.flex-box15 img {
+    border: solid #ddd 2px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1); 
+}
+.flex-box15 img:hover {
+    transform: scale(1.1); 
+}
+
+.flex-box16 img {
+    border: solid #ddd 2px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1); 
+}
+.flex-box16 img:hover {
+    transform: scale(1.1); 
+}
+
+.flex-box17 img {
+    border: solid #ddd 2px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);  
+}
+.flex-box17 img:hover {
+    transform: scale(1.1); 
+}
+/* ------------------- TERMINA LA EDICION DE LAS IMAGENES -------------------- */
+
+
+
+
+/* ------------------- TODOS LOS WRAPPERS Y OVERLAYS PARA LOS PRECIOS --------------------*/
+
+/* ------------------- PRIMER IMAGEN ---------------------*/
+.image-wrapper {
+    position: relative;
+    width: 350px; 
+    height: 300px;
+}
+
+/* Estilos de la imagen */
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    border: solid #ddd 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.image-wrapper:hover img {
+    transform: scale(1.1);
+}
+
+/* Estilos del overlay que aparecerá con el texto */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia */
+    color:rgb(113, 107, 146);
+    display: none; /* Inicialmente oculto */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+/* Mostrar el overlay cuando el cursor está sobre la imagen */
+.image-wrapper:hover .overlay {
+    display: flex;
+}
+/* ---------------------- TERMINA LA PRIMER IMAGEN ---------------------------- */
+
+/* ---------------------- EMPIEZA SEGUNDA IMAGEN ------------------------------ */
+.image-wrapper2 {
+    position: relative;
+    width: 350px; 
+    height: 300px;
+}
+
+/* Estilos de la imagen */
+.image-wrapper2 img {
+    width: 100%;
+    height: 100%;
+    border: solid #ddd 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.image-wrapper2:hover img {
+    transform: scale(1.1);
+}
+
+/* Estilos del overlay que aparecerá con el texto */
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia */
+    color:rgb(113, 107, 146);
+    display: none; /* Inicialmente oculto */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+/* Mostrar el overlay cuando el cursor está sobre la imagen */
+.image-wrapper2:hover .overlay2 {
+    display: flex;
+}
+/* ------------------- TERMINA LA SEGUNDA IMAGEN -------------------- */
+
+/* ------------------- EMPIEZA LA TERCER IMAGEN --------------------- */
+.image-wrapper3 {
+    position: relative;
+    width: 350px; 
+    height: 300px;
+}
+
+/* Estilos de la imagen */
+.image-wrapper3 img {
+    width: 100%;
+    height: 100%;
+    border: solid #ddd 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.image-wrapper3:hover img {
+    transform: scale(1.1);
+}
+
+/* Estilos del overlay que aparecerá con el texto */
+.overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia */
+    color:rgb(113, 107, 146);
+    display: none; /* Inicialmente oculto */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    
+}
+
+/* Mostrar el overlay cuando el cursor está sobre la imagen */
+.image-wrapper3:hover .overlay3 {
+    display: flex;
+}
+/* ------------------- TERMINA LA TERCER IMAGEN --------------------- */
+
+/* ------------------- EMPIEZA LA CUARTA IMAGEN --------------------- */
+.image-wrapper4 {
+    position: relative;
+    width: 350px; 
+    height: 300px;
+}
+
+/* Estilos de la imagen */
+.image-wrapper4 img {
+    width: 100%;
+    height: 100%;
+    border: solid #ddd 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.image-wrapper4:hover img {
+    transform: scale(1.1);
+}
+
+/* Estilos del overlay que aparecerá con el texto */
+.overlay4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia */
+    color:rgb(113, 107, 146);
+    display: none; /* Inicialmente oculto */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    
+}
+
+/* Mostrar el overlay cuando el cursor está sobre la imagen */
+.image-wrapper4:hover .overlay4 {
+    display: flex;
+}
+/* ------------------- TERMINA LA CUARTA IMAGEN --------------------- */
+
+/* ------------------- EMPIEZA LA QUINTA IMAGEN --------------------- */
+.image-wrapper5 {
+    position: relative;
+    width: 350px; 
+    height: 300px;
+}
+
+/* Estilos de la imagen */
+.image-wrapper5 img {
+    width: 100%;
+    height: 100%;
+    border: solid #ddd 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.image-wrapper5:hover img {
+    transform: scale(1.1);
+}
+
+/* Estilos del overlay que aparecerá con el texto */
+.overlay5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia */
+    color:rgb(113, 107, 146);
+    display: none; /* Inicialmente oculto */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    
+}
+
+/* Mostrar el overlay cuando el cursor está sobre la imagen */
+.image-wrapper5:hover .overlay5 {
+    display: flex;
+}
+/* ------------------- TERMINA LA QUINTA IMAGEN --------------------- */
+
+/* ------------------- EMPIEZA LA SEXTA IMAGEN --------------------- */
+.image-wrapper6 {
+    position: relative;
+    width: 350px; 
+    height: 300px;
+}
+
+/* Estilos de la imagen */
+.image-wrapper6 img {
+    width: 100%;
+    height: 100%;
+    border: solid #ddd 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.image-wrapper6:hover img {
+    transform: scale(1.1);
+}
+
+/* Estilos del overlay que aparecerá con el texto */
+.overlay6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia */
+    color:rgb(113, 107, 146);
+    display: none; /* Inicialmente oculto */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    
+}
+
+/* Mostrar el overlay cuando el cursor está sobre la imagen */
+.image-wrapper6:hover .overlay6 {
+    display: flex;
+}
+/* ------------------- TERMINA LA SEXTA IMAGEN --------------------- */
+
+/* ------------------- EMPIEZA LA SEPTIMA IMAGEN --------------------- */
+.image-wrapper7 {
+    position: relative;
+    width: 350px; 
+    height: 300px;
+}
+
+/* Estilos de la imagen */
+.image-wrapper7 img {
+    width: 100%;
+    height: 100%;
+    border: solid #ddd 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.image-wrapper7:hover img {
+    transform: scale(1.1);
+}
+
+/* Estilos del overlay que aparecerá con el texto */
+.overlay7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia */
+    color:rgb(113, 107, 146);
+    display: none; /* Inicialmente oculto */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    
+}
+
+/* Mostrar el overlay cuando el cursor está sobre la imagen */
+.image-wrapper7:hover .overlay7 {
+    display: flex;
+}
+/* ------------------- TERMINA LA SEPTIMA IMAGEN --------------------- */
+
+/* ------------------- EMPIEZA LA OCTAVA IMAGEN --------------------- */
+.image-wrapper8 {
+    position: relative;
+    width: 350px; 
+    height: 300px;
+}
+
+/* Estilos de la imagen */
+.image-wrapper8 img {
+    width: 100%;
+    height: 100%;
+    border: solid #ddd 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.image-wrapper8:hover img {
+    transform: scale(1.1);
+}
+
+/* Estilos del overlay que aparecerá con el texto */
+.overlay8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia */
+    color:rgb(113, 107, 146);
+    display: none; /* Inicialmente oculto */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    
+}
+
+/* Mostrar el overlay cuando el cursor está sobre la imagen */
+.image-wrapper8:hover .overlay8 {
+    display: flex;
+}
+/* ------------------- TERMINA LA OCTAVA IMAGEN --------------------- */
+
+/* -------- CONFIG DE BOTON --------- */
+
+.button {
+  
+    padding: 10px 20px;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    border: solid black 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* --- Comienza footer --- */
+.footer-container{
+    background-color: #faf5f1;
+    margin-top: 3rem;
+}
+.navbar-footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbar2-container{
+    padding-left: 1rem;
+}
+#sobrenosotras{
+    font-size: 2rem;
+    color: rgb(38, 38, 38);
+}
+.container-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+#copyright{
+    font-size: 0.8rem;
+}
+ul li{
+    list-style: none;
+}
+.navbar2-container ul{
+    padding: 0;
+}
+.redes-sociales-container{
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: flex-start;
+}
+.redes-sociales{
+    color: rgb(156, 156, 156);
+    width: 30px;
+    height: 30px;
+}
+/* --- Finaliza footer --- */

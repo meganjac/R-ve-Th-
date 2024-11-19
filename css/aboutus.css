@@ -59,37 +59,44 @@ ul li:hover{
 }
 /* --- Finaliza el header --- */
 
-.menu-section{
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Empieza la sección 1 */
+
+body {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 30px;
-    padding: 25px;
+    justify-content: center; 
+    align-items: center;
+    min-height: 50vh;
+    
 }
 
-.main-container{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                 url(../img/menu/place11cut.jpg) no-repeat fixed;
-    background-size: cover;
-    background-color: transparent;
+.wrapper{
+   margin: 60px;
+   width: 70%; 
+   
 }
 
-@media screen and (max-width: 768px) {
-    .main-container {
-        padding: 10px;
-    }
+.img-container-1 img{
+    max-width: 340px;
+    float: left;
+    margin: 10px;
+    margin-right: 30px;
+}
 
-    .menu-title-container {
-        margin-bottom: 20px; 
-    }
 
-    .menu-img img {
-        width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-        display: block;
+@media screen and (max-width:1024px){
+    .img-container-1 img {
+        max-width: 150px;
     }
 }
+
+/* Termina la sección 1 */
 
 /* --- Comienza footer --- */
 .footer-container{

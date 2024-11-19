@@ -125,15 +125,6 @@ ul li:hover{
 }
 
 
-/* .btn .btn-primary {
-    width: 7em;
-    border-radius: 20px;
-    background-color: #4CAF50; /* Verde */
-    /* color: white;
-    font-weight: bold;
-    letter-spacing: 1.4px;
-}  */
-
 .btn.custom-btn {
     background-color: #687144; /* Verde */
     color: white; /* Texto blanco */
@@ -194,15 +185,6 @@ ul li:hover{
     font-size: 2rem;
     color: rgb(38, 38, 38);
 }
-.descripcion-container{
-    display: flex;
-    justify-content: start;
-    width: 400px;
-}
-#descripcion{
-    font-size: 1rem;
-    color: rgb(38, 38, 38);
-}
 .container-copyright{
     display: flex;
     justify-content: center;
@@ -230,7 +212,6 @@ ul li{
     height: 30px;
 }
 /* --- Finaliza footer --- */
-
 
 @media (min-width: 1024px) {
     .card-1, .card-2, .card-3 {

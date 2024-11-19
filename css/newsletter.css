@@ -61,6 +61,7 @@ ul li:hover{
     padding: 2px; 
 }
 
+/* --- Comienza el main --- */
 .newsection1{
     display: flex;
     justify-content: center;
@@ -114,16 +115,10 @@ ul li:hover{
 
 } 
 
-.newsection2 h1 {
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
-}
-
 .event-info, .event-info-2, .event-info-3{
     font-weight: normal;
     margin: 10px;
 }
-
-
 .btn.custom-btn {
     background-color: #687144; /* Verde */
     color: white; /* Texto blanco */
@@ -133,14 +128,10 @@ ul li:hover{
     font-weight:bold;
     cursor: pointer;
 }
-
 .btn.custom-btn:hover{
     background-color: white;
     color: #687144;
 }
-
-
-
 .card-1, .card-2, .card-3 {
     padding: 10px;
     width: 100%;
@@ -150,15 +141,12 @@ ul li:hover{
     justify-content: start;
     flex-direction: column;
 }
-
 .card-title{
     margin-top: 10px;
 }
-
 .card-text{
     font-weight: normal;
 }
-
 .card-deck{
     display: flex;
     justify-content: space-between;
@@ -166,6 +154,7 @@ ul li:hover{
     gap: 10px;
     margin: 5px;
 }
+/* --- Finaliza el main --- */
 
 /* --- Comienza footer --- */
 .footer-container{

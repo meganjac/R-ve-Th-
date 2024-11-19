@@ -56,6 +56,20 @@ ul li:hover{
 .img-hebras:hover{
     transform: scale(1.1);
 }
+.btn-agregar{
+    width: auto;
+    border-radius: 20px;
+    background-color: #FFD0D0;
+    border: none;
+    color: white; /* Color del texto "ENVIAR" */
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    font-size: 1em;
+}
+.btn-agregar:hover{
+    background-color: #D76C82; 
+    color: #ffffff;
+}
 /* --- Finaliza sección de tés en hebras --- */
 
 

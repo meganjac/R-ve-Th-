@@ -52,7 +52,7 @@ ul li:hover{
     text-align: center;
 }
 .saquitos-container img{
-    width: "100%";
+    width: 100%;
     transition: 0.5s;
 }
 .saquitos-container img:hover{

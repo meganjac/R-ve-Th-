@@ -68,9 +68,9 @@ ul li:hover{
     text-align: start;
     margin: 0;
 }
-div img{
-    /* width: 90%; */
-    margin: 10%;;
+.img-saquito img{
+    width: 90%;
+    margin: 10%;
 }
 /* --- MEDIA QUERIES --- */
 @media screen and (max-width: 768px) {
